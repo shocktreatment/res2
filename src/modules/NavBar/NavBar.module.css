@@ -1,0 +1,9 @@
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.navLink:global(.active) {
+  font-weight: bold;
+  color: #085223b4;
+}

@@ -1,0 +1,17 @@
+p {
+  margin: 0;
+}
+input:checked + p {
+  text-decoration: line-through;
+  /* font-weight: bold; */
+}
+
+/* .navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.navLink:global(.active) {
+  font-weight: bold;
+  color: #9a6363bb;
+} */

@@ -1,0 +1,23 @@
+.box {
+    text-align: center;
+    color: #fff;
+    // background-color: #337db1;
+    background-color: #0852237f;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0;
+    padding: 7px;
+}
+
+.loadMore {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #00000071;
+    cursor: pointer;
+}
+
+.loadMore:hover {
+    background-color: #0852237f;
+}
