@@ -6,6 +6,9 @@ import { store, persistor } from './redux';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+console.log('public url: ', process.env.PUBLIC_URL)
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>
