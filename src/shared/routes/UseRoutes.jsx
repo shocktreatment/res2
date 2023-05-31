@@ -36,27 +36,27 @@ const UserRoutes = () => {
         <Route
           path="/res2/signup"
           element={
-            <RestricedRoute component={SignupPage} redirectTo="/cabinet" />
+            <RestricedRoute component={SignupPage} redirectTo="/res2/cabinet" />
           }
         />
         <Route
           path="/res2/login"
           element={
-            <RestricedRoute component={LoginPage} redirectTo="/cabinet" />
+            <RestricedRoute component={LoginPage} redirectTo="/res2/cabinet" />
           }
         />
         <Route
           path="/res2/tasks"
-          element={<PrivateRoute component={TodosPage} redirectTo="/login" />}
+          element={<PrivateRoute component={TodosPage} redirectTo="/res2/login" />}
         />
         <Route
           path="/res2/cabinet"
-          element={<PrivateRoute component={CabinetPage} redirectTo="/login" />}
+          element={<PrivateRoute component={CabinetPage} redirectTo="/res2/login" />}
         />
         <Route
           path="/res2/posts/:id"
           element={
-            <PrivateRoute component={SinglePostPage} redirectTo="/login" />
+            <PrivateRoute component={SinglePostPage} redirectTo="/res2/login" />
           }
         >
           <Route path="comments" element={<CommentsPage />} />
@@ -64,7 +64,7 @@ const UserRoutes = () => {
         <Route
           path="/res2/contacts"
           element={
-            <PrivateRoute component={ContactsPage} redirectTo="/login" />
+            <PrivateRoute component={ContactsPage} redirectTo="/res2/login" />
           }
         />
       </Routes>

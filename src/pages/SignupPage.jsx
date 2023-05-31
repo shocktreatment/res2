@@ -27,7 +27,7 @@ const SignupPage = () => {
       <h1>SignupPage</h1>
       <p>
         Please, <b>Sign up</b> or{" "}
-        <Link to="/login" style={{ color: "#085223" }}>
+        <Link to="/res2/login" style={{ color: "#085223" }}>
           Log in
         </Link>
       </p>

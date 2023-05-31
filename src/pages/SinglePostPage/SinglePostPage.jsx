@@ -45,13 +45,13 @@ const SinglePostPage = () => {
       <p>{post?.body}</p>
 
       <Link
-        to="comments"
+        to="/res2/comments"
         state={{ from }}
         style={{ color: "#085223e4", marginTop: "10px", display: "block" }}
       >
         Comments
       </Link>
-      
+
       <Outlet />
     </div>
   );
