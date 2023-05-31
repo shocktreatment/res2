@@ -27,25 +27,25 @@ const AppBar = () => {
           width: "100px",
         }}
       >
-        <NavLink to="/" className={css.navLink}>
+        <NavLink to="/res2/" className={css.navLink}>
           Home
         </NavLink>
       </div>
 
       {isLogin && (
         <div style={{ display: "flex", gap: "20px" }}>
-          <NavLink to="/cabinet" className={css.navLink}>
+          <NavLink to="/res2/cabinet" className={css.navLink}>
             Cabinet
           </NavLink>
-          <NavLink to="/tasks" className={css.navLink}>
+          <NavLink to="/res2/tasks" className={css.navLink}>
             Todos
           </NavLink>
-          <NavLink to="/contacts" className={css.navLink}>
+          <NavLink to="/res2/contacts" className={css.navLink}>
             Contacts
           </NavLink>
         </div>
       )}
-      
+
       {isLogin ? <UserMenu /> : <Navigation />}
 
     </div>

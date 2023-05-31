@@ -12,7 +12,7 @@ const ListOfPost = ({ items }) => {
     <Link
       key={id}
       className={s.link}
-      to={`/posts/${id}`}
+      to={`/res2/posts/${id}`}
       state={{ from: location }}
     >
       <li className={s.item}>

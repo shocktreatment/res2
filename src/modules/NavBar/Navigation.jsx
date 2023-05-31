@@ -5,7 +5,7 @@ import css from "./NavBar.module.css";
 const NavAuth = () => {
   return (
     <div style={{ display: "flex", gap: "4px", alignItems: "center" }}>
-      <NavLink to="/signup" className={css.navLink}>
+      <NavLink to="/res2/signup" className={css.navLink}>
         Sign in
       </NavLink>{" "}
 
@@ -14,8 +14,8 @@ const NavAuth = () => {
       >
         |
       </span>
-      
-      <NavLink to="/login" className={css.navLink}>
+
+      <NavLink to="/res2/login" className={css.navLink}>
         Log in
       </NavLink>
     </div>
