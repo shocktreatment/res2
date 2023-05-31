@@ -28,7 +28,10 @@ const UserRoutes = () => {
   return (
     !isCurrent && (
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route
+          path="/https://shocktreatment.github.io/"
+          element={<HomePage />}
+        />
         <Route path="*" element={<NotFoundPage />} />
         <Route
           path="/signup"
